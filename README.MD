@@ -1,5 +1,5 @@
-#How to use
 Packaging that wraps the faker.js file for en_US locale in a way that is compatible with BigQuery as a javascript UDF.
+Can't get all locales as resulting file would too big (1.3MB) for BQ file size limit (1MB).
  
 See https://medium.com/swlh/how-to-package-a-javascript-library-for-use-in-bigquery-2bf91061f66f
 
