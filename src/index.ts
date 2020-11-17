@@ -1,5 +1,5 @@
 
-var faker = require("faker/locale/en");
+var faker = require("faker/locale/en_US");
 
 
 module.exports.GetFaker = function () {

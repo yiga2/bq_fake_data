@@ -3,10 +3,9 @@ const path = require('path');
 module.exports = {
   entry: './src/index.ts',
   output: {
-    filename: 'main.js',
+    filename: 'bq_fake.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'fakerbq',
-    /*libraryTarget: 'umd',
-    globalObject: 'this', */
   },
+  mode: 'production',
 };
